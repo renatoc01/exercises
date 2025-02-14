@@ -13,7 +13,7 @@ public class StringReversal {
 	// manipulation without using built-in functions. It can be a bit tricky,
 	// especially when you have to deal with different character types and spaces.
 	public static String reverseString(String str) {
-        char[] charArray = str.toCharArray();
+        var charArray = str.toCharArray();
         int left = 0, right = charArray.length - 1;
         
         while (left < right) {
